@@ -1,0 +1,7 @@
+Game_name:新手教學;
+Game_key:1530ad3b8c83e9d;
+Title_img:WechatIMG319 (1).jpg;
+Title_bgm:s_Title2.mp3 -vocal= 01 Noddinagushpa (Main Title).mp3 -vocal= 01 Noddinagushpa (Main Title).mp3;
+Textbox_theme:imss;
+Description:;
+Game_Logo:WechatIMG319 (1).jpg;
