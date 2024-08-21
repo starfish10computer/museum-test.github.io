@@ -1,0 +1,8 @@
+changeBg:test/IMG2335.jpg;
+:主角從行李包中找到一幅地圖，但上面只有一條路線。 -fontSize=default;
+changeFigure:alex.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+Roberto Alexandre Figueiredo Umbelibulo:這張地圖一直跟着這個行李包，古董店的賣家跟我說行李包是外國貨，坐船過來澳門的，地圖就標示了行李包的生產地，但我一直看不明白標示的是哪個城市。 -fontSize=default;
+changeFigure: -next;
+intro:謎題|圖中是十六世紀中葉至十九世紀中葉最重要的海上貿易航線之一，請找出Ｘ所代表的城市。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+謎題:圖中是十六世紀中葉至十九世紀中葉最重要的海上貿易航線之一，請找出Ｘ所代表的城市。 -fontSize=default;
+choose:珠海:Level1wrong1.txt|香港:Level1wrong2.txt|台灣:Level2.txt;

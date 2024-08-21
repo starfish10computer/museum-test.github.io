@@ -1,0 +1,11 @@
+changeBg:bg1.png -next;
+changeFigure:alex.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+Roberto Alexandre Figueiredo Umbelibulo:主角來到這個未知的地方，一個中西文化交匯的地方，第一件事是要找到能得知方向和時間的物品。 -fontSize=default;
+changeFigure: -next;
+:（謎題）請在交匯之路“時間廊”，找出中國發明的海上定位工具和西方計算時間的工具，請把相應的數字相加。 -fontSize=default;
+getUserInput:a -title="海上定位工具" + "西方計算時間" -buttonText=確定;
+
+changeScene:Level1.txt
+;
+changeScene:Teachinglevelwrong.txt
+;

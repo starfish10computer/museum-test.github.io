@@ -1,0 +1,16 @@
+changeBg:test/IMG_2345.jpg -next;
+changeFigure:man1.png -transform={"dotFilm":1} -next;
+伯伯:年輕人，謝謝您，我告訴您如何離開這裏吧。要啟動時空羅盤，您必須把羅盤上正確的密碼都串聯起來，而密碼的線索都在這張紙上面了。 -fontSize=default;
+changeFigure: -next;
+主角:為甚麼您有密碼的線索又不去破解呢？ -fontSize=default;
+changeFigure:man1.png -transform={"dotFilm":1} -next;
+伯伯:我試過了，但線索上的東西來自我不瞭解的未來，我看不懂，我生活在明朝崇禎年間，而您來自未來，說不定您看得懂，能破解這些密碼呢。 -fontSize=default;
+changeFigure:none;
+changeFigure:alex.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+Roberto Alexandre Figueiredo Umbelibulo:但是，最下面的圖案是甚麼意思？ -fontSize=default;
+changeFigure:none;
+changeFigure:man1.png -transform={"dotFilm":1} -next;
+伯伯:這個我也不知道，要您自己去參透了。 -fontSize=default;
+changeFigure: -next;
+:此時聽到有人在土生葡人客廳大叫救命，大家一起上去查看究竟。|（請保留“時空羅盤密碼線索”留待稍後使用。現在，請前往澳門博物館二樓的土生葡人客廳。） -fontSize=default;
+callScene:Level 6 .txt

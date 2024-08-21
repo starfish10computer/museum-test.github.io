@@ -1,0 +1,4 @@
+changeBg:test/IMG2335.jpg;
+:答案錯誤。請再次回答 -fontSize=default;
+:圖中是十六世紀中葉至十九世紀中葉最重要的海上貿易航線之一，請找出Ｘ所代表的城市。 -fontSize=default;
+choose:香港:Level1wrong3.txt|台灣:Level2.txt;

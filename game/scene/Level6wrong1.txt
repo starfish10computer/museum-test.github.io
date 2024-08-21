@@ -1,0 +1,3 @@
+changeBg:test/IMG2364.jpg -next;
+謎題:答案錯誤，找到案發現場中消失了的物品。 -fontSize=default;
+choose:燈:Level6wrong3.txt|電話:Level7.txt;

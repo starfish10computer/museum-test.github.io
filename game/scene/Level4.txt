@@ -1,0 +1,16 @@
+changeBg:test/IMG2339.jpg -next;
+changeFigure:man1.png -transform={"dotFilm":1} -next;
+:此時，主角遇到一位神秘的伯伯，他手上拿著一塊碎片 -fontSize=default;
+changeFigure:;
+changeFigure:alex.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+Roberto Alexandre Figueiredo Umbelibulo:您知道如何啟動這個時空羅盤嗎？ -fontSize=default;
+changeFigure:;
+changeFigure:man1.png -transform={"dotFilm":1} -next;
+伯伯:當然知道，我在這個時空已經很久很久了，如果您能解開我一個心結，我便告訴您。 -fontSize=default;
+changeFigure: -next;
+主角:說來聽聽吧。 -fontSize=default;
+changeFigure:man1.png -transform={"dotFilm":1} -next;
+伯伯:這是一塊珍貴的“克拉克瓷”瓷片，它經由中式工藝燒製而成，其獨特的造型和紋飾，一度風靡歐洲，我一直都很喜歡他的圖案，可惜它已經碎開了|如果您能把它修復好，並告訴我瓷器上繪畫了甚麼圖案，我便告訴您啟動時空羅盤的方法吧。 -fontSize=default;
+intro:謎題：|文物修復是用以保存珍貴和特有的文化財產之手段，也是博物館的一項基本功能。請把道具X的瓷器碎片修復，並查出瓷器所繪畫的圖案。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+謎題:請把道具X的瓷器碎片修復，並查出瓷器所繪畫的圖案。 -fontSize=default;
+choose:鳥:Level5.txt|龍:Level4wrong1.txt|鳳:Level4wrong2.txt;

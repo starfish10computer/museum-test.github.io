@@ -1,0 +1,11 @@
+changeFigure: -right -next;
+changeFigure: -left -next;
+changeBg:test/IMG2334.jpg;
+changeFigure:none -next;
+（請查看手中的道具）:答案錯誤，以下皆是在澳門歷史上出現過的人物，請把相對應的物品展示給他們看，他們才會告訴您通關密碼。請從博物館展場的展文中找到關於他們的介紹。 -fontSize=default;
+getUserInput:a -title=請輸入通關密碼 -buttonText=確定;
+
+changeScene:Level3.txt
+;
+changeScene:Level2wrong.txt
+;

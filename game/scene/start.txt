@@ -1,0 +1,13 @@
+changeBg:test/IMG2375.jpg;
+changeFigure:选择立绘文件 -next;
+主角:主角在閣樓找到一個古老的行李包 -fontSize=default;
+主角:打開後被吸進了行李包的元宇宙之中，裏面的時間和空間都處於混沌狀態。 -fontSize=default;
+:此時，一把聲音在呼喚主角 -fontSize=default;
+:原來是傳奇的畫家Roberto Alexandre Figueiredo Umbelibulo！而相傳這位畫家是離奇失蹤的。 -fontSize=default;
+changeFigure:alex.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+:原來是傳奇的畫家Roberto Alexandre Figueiredo Umbelibulo！而相傳這位畫家是離奇失蹤的。 -fontSize=default;
+Roberto Alexandre Figueiredo Umbelibulo:這個元宇宙叫做“博物時空”，而行李包只是它的其中一個入口，世界各地不同的人和事物都不斷從各個入口來到這裏。 -fontSize=default;
+Roberto Alexandre Figueiredo Umbelibulo:我則是因為某天在古董店買了這個行李包，便被吸進來這裏的|我很想離開裏，但離開的唯一方法就是不斷探索和解開所有謎題。 -fontSize=default;
+:現在，將由您扮演故事主角，身為主角的您又怎會輕易放棄呢|請您和Roberto一起解決謎題，找到離開“博物時空”的方法吧。 -fontSize=default;
+callScene:Teachinglevel.txt
+bgm:选择背景音乐;

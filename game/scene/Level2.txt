@@ -1,0 +1,7 @@
+changeBg:test/IMG2334.jpg -next;
+changeFigure: -right -transform={"position":{"x":1000,"y":50},"dotFilm":1} -next;
+changeFigure: -transform={"position":{"x":500,"y":600},"scale":{"x":2,"y":2}} -next;
+changeFigure:man1.png -left -next;
+changeFigure:alex.PNG -right -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+:主角與Roberto發現了一班人，他們應該也是被困在“博物時空”裏，主角主動和他們談話，希望能發現離開“博物時空”的辦法。 -fontSize=default;
+callScene:Level2.2.txt

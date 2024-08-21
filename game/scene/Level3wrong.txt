@@ -1,0 +1,9 @@
+changeBg:test/IMG2341.jpg -next;
+changeFigure:coin.png -transform={"position":{"x":-280}} -next;
+:答案錯誤，請再仔細觀察錢幣上的陽文，找出發行該錢幣的皇帝的廟號。 -fontSize=default;
+getUserInput:a -title=找出發行該錢幣的皇帝的廟號 -buttonText=確定;
+
+changeScene:Level4.txt
+;
+changeScene:Level3wrong.txt
+;

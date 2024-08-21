@@ -1,0 +1,20 @@
+changeBg:shop.jpg -next;
+changeFigure:55e79eae1a4499c6623cfd2b7d451958.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2},"dotFilm":1} -next;
+屋主陳槐:謝謝您，這裏有些金錢，請您收下吧 -fontSize=default;
+changeFigure:none;
+主角:不用了，我們現在比較想知道這個時空羅盤的解碼方法。 -fontSize=default;
+changeFigure:55e79eae1a4499c6623cfd2b7d451958.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2},"dotFilm":1} -next;
+屋主陳槐:解謎這些我就無能為力了，但我的盒子裏有這張神秘的紙，是我為另一個住宅買的裝飾品附送的，不知道能不能幫到您呢。 -fontSize=default;
+changeFigure:none;
+changeFigure:alex.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+Roberto Alexandre Figueiredo Umbelibulo:您還有另一個住宅？ -fontSize=default;
+changeFigure:;
+changeFigure:55e79eae1a4499c6623cfd2b7d451958.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2},"dotFilm":1} -next;
+屋主陳槐:是的，它是一個中式風格的住宅，有空來參觀一下吧。 -fontSize=default;
+intro:謎題：|這張神秘的紙可能就是重要的解碼關鍵，請拿出“時空羅盤”和“時空羅盤密碼線索”，轉動“時空羅盤”上的正確答案至同一位置，便能！解開“時空羅盤”中間的終極密碼，然後打開印有終極密碼的信封吧。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+謎題:請拿出“時空羅盤”和“時空羅盤密碼線索”，轉動“時空羅盤”上的正確答案至同一位置，便能！解開“時空羅盤”中間的終極密碼 -fontSize=default;
+getUserInput:a -title=“時空羅盤”中間的終極密碼 -buttonText=確定;
+changeScene:Level9.txt
+;
+changeScene:Level8wrong .txt
+;
