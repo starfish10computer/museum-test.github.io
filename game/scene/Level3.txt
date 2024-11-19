@@ -9,7 +9,6 @@ changeFigure:uncle.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -
 changeFigure:ALEX.png -left -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
 changeFigure:maincharacter.png -right -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
 changeFigure:none -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-intro:;
 playVideo:Video04.mp4 -skipOff=true;
 阿多:原來傳說是真的啊。 -fontSize=default;
 {name}:智者，你好！ -fontSize=default;
