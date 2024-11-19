@@ -1,0 +1,4 @@
+changeBg:a/c.jpg -next;
+:答案錯誤，請重新回答。| -fontSize=default;
+謎題:以下餐單中有三款土生葡人美食，把它們的價格總加起來，然後填寫金額。 -fontSize=default;
+choose:112 元:Level9wrong.txt|116 元:Level9wrong.txt|128 元:Level9wrong.txt|100 元:Level9wrong.txt|105 元:end.txt|劇情回顧:Level9.txt;

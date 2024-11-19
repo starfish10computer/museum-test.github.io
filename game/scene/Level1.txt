@@ -1,0 +1,12 @@
+intro:;
+playVideo:Video02.mp4 -skipOff=true;
+changeBg:a/m.jpg -next;
+changeFigure:maincharacter.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+{name}:然後呢？你說要找一個叫“時空羅盤”的東西，到底要去哪裡找？ -fontSize=default;
+changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+阿多:傳說中，“時空羅盤”現在在一位智者手上。 -fontSize=default;
+阿多:我手上有一張地圖，相傳地圖上面有能找到智者的線索，|但以本人的能力真的無法解通。{name} ，說不定你能解開！ -fontSize=default;
+changeFigure:maincharacter.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+{name}:讓我想想……看來只要找出X所代表的城市，就能找到智者。|仔細看地圖上面還寫著“子午卯酉”，這又是甚麼意思呢？ -fontSize=default;
+:圖中是十六世紀中葉至十九世紀中葉最重要的海上貿易航線之一，|請找出Ｘ所代表的城市。 -fontSize=default;
+choose:莫桑比克:Level1wrong1.txt|倫敦:Level1wrong1.txt|里斯本:Level2b.txt|阿姆斯特丹:Level1wrong1.txt|蒙巴薩:Level1wrong1.txt|劇情回顧:Level1c.txt;

@@ -1,0 +1,7 @@
+changeBg:a/g.jpg -next;
+changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+未知的土生葡人:喂，年輕人！你叫甚麼名字？ -fontSize=default;
+changeFigure:maincharacter.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+getUserInput:name -title=請輸入您的名字 -buttonText=確認;
+
+callScene:start2.txt

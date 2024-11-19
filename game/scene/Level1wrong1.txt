@@ -1,0 +1,5 @@
+changeBg:a/m.jpg -next;
+changeFigure:maincharacter.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+:答案錯誤，請重新回答。 -fontSize=default;
+謎題:圖中是十六世紀中葉至十九世紀中葉最重要的海上貿易航線之一，請找出Ｘ所代表的城市。 -fontSize=default;
+choose:莫桑比克:Level1wrong1.txt|倫敦:Level1wrong1.txt|里斯本:Level2b.txt|阿姆斯特丹:Level1wrong1.txt|蒙巴薩:Level1wrong1.txt|劇情回顧:Level1.txt;

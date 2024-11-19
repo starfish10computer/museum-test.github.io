@@ -1,0 +1,8 @@
+changeFigure:George.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+changeBg:a/l.jpg -next;
+佐治．歐維士:你有資格啊，你有資格。 -fontSize=default;
+changeFigure:b.png -right -transform={"position":{"y":800},"scale":{"x":2,"y":2}} -next;
+M. T. 布加羅:恭喜你們！ -fontSize=default;
+changeFigure:FanLian.png -left -transform={"position":{"x":0,"y":800},"scale":{"x":2,"y":2}} -next;
+范禮安:進去見智者吧。 -fontSize=default;
+callScene:Level3.txt
