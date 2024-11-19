@@ -1,6 +1,5 @@
 changeBg:a/ds.jpg -next;
 changeFigure:Meiling.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-intro:;
 playVideo:Video08.mp4 -skipOff=true;
 擔水妹:水井給予你們這張“挑戰卡”，上面有四道謎題，|你們要同時解開這些謎題，然後轉動“時空羅盤” -fontSize=default;
 擔水妹:把答案對齊綠色的位置，“時空羅盤”中間便會顯示一串終極密碼，|到時便能離開了。 -fontSize=default;
