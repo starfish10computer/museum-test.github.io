@@ -1,4 +1,3 @@
-intro:;
 playVideo:Video02.mp4 -skipOff=true;
 changeBg:a/m.jpg -next;
 changeFigure:maincharacter.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
