@@ -68,7 +68,7 @@
             transition: text-shadow 1s;
             font-size: 175%;
 ">
-          PRESS THE SCREEN TO START
+          點擊開始遊戲
         </div>
       </div>
       <div style="position: absolute;
@@ -80,11 +80,11 @@
         align-items: center ">
         <div style="padding: 0 0 0.25em 0">
           Powered by <a href="https://github.com/OpenWebGAL/WebGAL"
-            onclick="jump(event, 'https://github.com/OpenWebGAL/WebGAL')">WebGAL</a> Framework
+            onclick="jump(event, 'https://github.com/OpenWebGAL/WebGAL')">Silhouetten</a> Framework
         </div>
         <div>
           Made with ❤ by <a href="https://github.com/OpenWebGAL"
-            onclick="jump(event, 'https://github.com/OpenWebGAL')">OpenWebGAL</a>
+            onclick="jump(event, 'https://github.com/OpenWebGAL')">Silhouetten</a>
         </div>
       </div>
     </div>
@@ -142,12 +142,12 @@
         }
         mw2os = -mw2os;
         if (h * (9 / 16) >= w) {
-          ebgTransform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomH2 * 1.75},${zoomH2 * 1.75})`;
-          transform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomH2},${zoomH2})`;
+          ebgTransform = `rotate(0deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomH2 * 1.75},${zoomH2 * 1.75})`;
+          transform = `rotate(0deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomH2},${zoomH2})`;
         }
         if (h * (9 / 16) < w) {
-          ebgTransform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomW2 * 1.75},${zoomW2 * 1.75})`;
-          transform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomW2},${zoomW2})`;
+          ebgTransform = `rotate(0deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomW2 * 1.75},${zoomW2 * 1.75})`;
+          transform = `rotate(0deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomW2},${zoomW2})`;
         }
         /**
          * iOS 不强制旋转
