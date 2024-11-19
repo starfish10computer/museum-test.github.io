@@ -1,7 +1,0 @@
-changeBg:a/m.jpg -next;
-changeFigure: -next;
-changeFigure:maincharacter.png -left -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-changeFigure:ALEX.png -right -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-{name}:我知道了！子午卯酉是古時的北南東西，根據地理位置，X就是里斯本。 -fontSize=default;
-阿多:嘩！年輕人，想不到你這麼聰明呢！|我們出發去里斯本找智者吧！ -fontSize=default;
-callScene:Level2.txt

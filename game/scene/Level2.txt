@@ -1,8 +1,0 @@
-changeBg:a/l.jpg -next;
-changeFigure:FanLian.png -left -transform={"position":{"x":0,"y":800},"scale":{"x":2,"y":2}} -next;
-changeFigure:b.png -right -transform={"position":{"y":800},"scale":{"x":2,"y":2}} -next;
-changeFigure:George.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-intro:;
-playVideo:Video03.mp4 -skipOff=true;
-:（到達目的地後，您們來到一個大宅，大宅門前有三個神秘人把你們攔住） -fontSize=default;
-callScene:Level2.2.txt
