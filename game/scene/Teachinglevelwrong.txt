@@ -1,8 +1,0 @@
-changeBg:bg1.png -next;
-Roberto Alexandre Figueiredo Umbelibulo:（謎題）請在交匯之路“時間廊”，找出中國發明的海上定位工具和西方計算時間的工具，請把把相應的數字相加。 -fontSize=default;
-getUserInput:a -title="海上定位工具" + "西方計算時間" -buttonText=確定;
-
-changeScene:Level1.txt
-;
-changeScene:Teachinglevelwrong.txt
-;

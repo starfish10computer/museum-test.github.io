@@ -1,8 +1,0 @@
-changeBg:test/IMG2364.jpg;
-:到了土生葡人客廳，看不見小偷的蹤影。 -fontSize=default;
-changeFigure:55e79eae1a4499c6623cfd2b7d451958.PNG -transform={"position":{"y":600},"scale":{"x":2,"y":2},"oldFilm":1} -next;
-屋主:救命呀！剛才有小偷闖進我的客廳，但不知道偷了些甚麼，您能幫我查看家中有甚麼不見了嗎？ -fontSize=default;
-intro:謎題|找到案發現場中消失了的物品。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
-changeBg:photo.jpg;
-謎題:找到案發現場中消失了的物品。 -fontSize=default;
-choose:燈:Level6wrong1.txt|酒杯:Level6wrong2.txt|電話:Level7.txt;

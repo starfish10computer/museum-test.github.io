@@ -1,3 +1,0 @@
-changeBg:test/IMG2364.jpg;
-:答案錯誤，案發現場中消失了的物品是電話。 -fontSize=default;
-callScene:Level7.txt

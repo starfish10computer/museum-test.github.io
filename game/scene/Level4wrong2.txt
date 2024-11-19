@@ -1,3 +1,0 @@
-changeBg:test/IMG2339.jpg;
-謎題:答案錯誤，請把道具X的瓷器碎片修復，並查出瓷器所繪畫的圖案。 -fontSize=default;
-choose:鳥:Level5.txt|龍:Level4wrong3.txt;

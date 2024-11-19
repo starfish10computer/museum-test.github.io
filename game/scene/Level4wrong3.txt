@@ -1,3 +1,0 @@
-changeBg:test/IMG2339.jpg;
-謎題:答案錯誤，正確答案是鳥。 -fontSize=default;
-callScene:Level5.txt

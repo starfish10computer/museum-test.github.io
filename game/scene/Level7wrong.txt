@@ -1,7 +1,0 @@
-changeBg:shop.jpg;
-謎題:請於圖中找到屋主的箱子，並計算連本帶利應付的金額。 -fontSize=default;
-getUserInput:a -title=計算連本帶利應付的金額 -buttonText=確定;
-changeScene:Level8.txt
-;
-changeScene:Level7wrong.txt
-;

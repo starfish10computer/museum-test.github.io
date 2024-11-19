@@ -1,3 +1,0 @@
-changeBg:test/IMG2335.jpg;
-:答案錯誤。|答案是台灣，XXXXXXX -fontSize=default;
-changeScene:Level2.txt

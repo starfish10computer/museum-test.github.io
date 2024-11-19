@@ -1,7 +1,0 @@
-changeBg:shop.jpg -next;
-謎題:答案錯誤|請拿出“時空羅盤”和“時空羅盤密碼線索”，轉動“時空羅盤”上的正確答案至同一位置，便能！解開“時空羅盤”中間的終極密碼 -fontSize=default;
-getUserInput:a -title=“時空羅盤”中間的終極密碼 -buttonText=確定;
-changeScene:Level9.txt
-;
-changeScene:Level8wrong .txt
-;
