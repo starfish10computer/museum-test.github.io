@@ -1,7 +1,6 @@
 changeFigure:none;
 changeBg:a/f.jpg -next;
 changeFigure:homeowner.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-intro:;
 playVideo:Video09.mp4 -skipOff=true;
 收藏家:我珍貴的電話啊！怎樣才能找回我的電話呢？ -fontSize=default;
 changeFigure:Meiling.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
