@@ -1,0 +1,7 @@
+Game_name:逃出博物時空;
+Game_key:1530ad3b8c83e9d;
+Title_img:First.jpg;
+Title_bgm:s_Title2.mp3 -vocal= 01 Noddinagushpa (Main Title).mp3 -vocal= 01 Noddinagushpa (Main Title).mp3;
+Textbox_theme:imss;
+Description:;
+Game_Logo:First.jpg;
