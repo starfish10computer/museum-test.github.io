@@ -1,0 +1,17 @@
+changeBg:a/d.jpg -next;
+changeFigure:homeowner.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+playVideo:Video12.mp4 -skipOff=true;
+收藏家陳槐:謝謝你們，這裡有些金錢，請收下吧。 -fontSize=default;
+changeFigure:maincharacter.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+{name}:不用客氣了，我們現在只想盡快解開“時空羅盤"。 -fontSize=default;
+changeFigure:homeowner.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+收藏家陳槐:解謎這些我就無能為力了，但我的保險箱裡有一張神秘的中式畫，|就當是我的謝禮吧。 -fontSize=default;
+changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+阿多:畫中的圖案，好像在哪裡見過…… -fontSize=default;
+changeFigure:Meiling.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+美玲:對稱又和諧的圖案，很有中式的味道呢，說不定能在哪裡找到線索。 -fontSize=default;
+changeFigure: -next;
+changeBg:a/d.jpg -next;
+changeFigure:compass.png -transform={"position":{"y":10},"scale":{"x":0.5,"y":0.5}} -next;
+謎題:現在，請拿出“時空羅盤”，根據“挑戰卡”上的四道謎題，把四個正確答案對齊綠色的位置，“時空羅盤”中間便會顯示一串四位數字的終極密碼。輸入終極密碼吧！別忘記，收藏家陳槐給您的神秘中式畫亦是重要的解碼關鍵，在展場中尋找相似的物件吧。 -fontSize=small;
+choose:7654:Level8wrong .txt|1088:Level8wrong .txt|1236:Level8wrong .txt|1998:Level9b.txt|6498:Level8wrong .txt|劇情回顧:Level8.txt|美玲的提示:Level8T.txt;

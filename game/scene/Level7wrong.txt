@@ -1,0 +1,4 @@
+changeBg:a/h.jpg -next;
+:答案錯誤，請重新回答。 -fontSize=default;
+謎題:找出圖中哪一個保險箱是屬於收藏家的，然後計算連本帶利應付的金額（以單利息計算）。 -fontSize=default;
+choose:530 元:Level7wrong.txt|1380 元:Level7wrong.txt|1120 元:Level8b.txt|763 元:Level7wrong.txt|1062 元:Level7wrong.txt|劇情回顧:Level7wrong.txt;

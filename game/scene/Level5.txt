@@ -1,0 +1,18 @@
+changeBg:a/v.jpg -next;
+changeFigure:uncle.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+intro:;
+playVideo:Video06.mp4 -skipOff=true;
+智者:感謝你們，讓我可以回到屬於我的世界。這個“時空羅盤”我已經沒有用，就把它交給你們吧。 -fontSize=default;
+changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+阿多:是“時空羅盤”！|但……請問該如何使用呢？ -fontSize=default;
+changeFigure:uncle.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+智者:“時空羅盤”會給予每位的挑戰者獨一無二的“挑戰卡”，請你們走到那邊的水井處，神奇的水井會噴出一張“挑戰卡”。 -fontSize=default;
+changeBg:a/j.jpg -next;
+changeFigure: -next;
+:（您們到達水井處，見到一位“擔水妹”） -fontSize=default;
+changeFigure:Meiling.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+擔水妹:你們是誰？也是來取“挑戰卡”的嗎？|想知道“時空羅盤”的用法？首先讓我考考你們吧，聽清楚了。 -fontSize=default;
+changeFigure: -next;
+playVideo:video07.mp4;
+謎題:在舊時的澳門，澳門市政廳為了讓消防人員識別哪些住宅或商舖內有私人水井，|規定擁有私井的業主必須在門口掛一木牌，以便在緊急時讓消防人員進門取水。|請問這塊木牌上的文字是甚麼呢？ -fontSize=small;
+choose:P井:Level6b.txt|A井:Level5wrong.txt|W水:Level5wrong.txt|J水:Level5wrong.txt|劇情回顧:Level5.txt;

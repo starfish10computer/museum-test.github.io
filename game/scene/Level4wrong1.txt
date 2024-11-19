@@ -1,0 +1,4 @@
+changeBg:a/k.jpg -next;
+:答案錯誤，請重新回答。| -fontSize=default;
+謎題:文物修復是用以保存珍貴和特有的文化財產之手段，也是博物館的一項基本功能。請把這些碎片修復，並找出瓷器上所繪畫的圖案。 -fontSize=default;
+choose:鳥:Level4b.txt|鹿:Level4wrong1.txt|雲:Level4wrong1.txt|花瓶:Level4wrong1.txt|塔:Level4wrong1.txt|劇情回顧:Level3.txt;

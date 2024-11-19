@@ -1,0 +1,5 @@
+changeBg:a/n.jpg -next;
+changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+:答案錯誤，請重新回答。 -fontSize=default;
+謎題:請在博物館入口交匯之路－－“時間廊”，找出中國的航海羅盤，與西方的沙漏，把該兩件展品相應的數字相加便是答案。 -fontSize=default;
+choose:32:Teachinglevelwrong.txt|33:Teachinglevelwrong.txt|34:Teachinglevelwrong.txt|35:Level1.txt|38:Teachinglevelwrong.txt|劇情回顧:Teachinglevel.txt;
