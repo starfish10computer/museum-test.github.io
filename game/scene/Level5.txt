@@ -1,6 +1,5 @@
 changeBg:a/v.jpg -next;
 changeFigure:uncle.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-intro:;
 playVideo:Video06.mp4 -skipOff=true;
 智者:感謝你們，讓我可以回到屬於我的世界。這個“時空羅盤”我已經沒有用，就把它交給你們吧。 -fontSize=default;
 changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
