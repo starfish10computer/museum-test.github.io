@@ -2,7 +2,6 @@ changeBg:a/a.jpg -next;
 changeFigure: -next;
 changeFigure:maincharacter.png -left -transform={"position":{"y":650},"scale":{"x":2,"y":2}} -next;
 changeFigure:uncle.png -right -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-intro:;
 playVideo:Video05.mp4 -skipOff=true;
 智者:這次，我希望你們能解開一個我自己也無法解開的謎題。|這裡有一個錢幣，是我購買這隻“克拉克瓷”時使用的。 -fontSize=default;
 {name}:讓我們看看吧。 -fontSize=default;
