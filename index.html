@@ -91,7 +91,6 @@
 <div id="root"></div>
 
 <script>
-
    const ua = navigator.userAgent;
     const isIOSDevice = !!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
     function resize() {
@@ -123,23 +122,45 @@
         }
         mw = -mw;
         mh = -mh;
-                mw = -mw;
-                mh = -mh;
-                if (w * (9 / 16) >= h) {
-                    root.style.transform = `translate(${mw}px, ${mh}px) scale(${zoomH},${zoomH})`;
-                }
-                if (w * (9 / 16) < h) {
-                    root.style.transform = `translate(${mw}px, ${mh}px) scale(${zoomW},${zoomW})`;
-                }
-            } else {
-                mw2os = -mw2os;
-                if (h * (9 / 16) >= w) {
-                    root.style.transform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomH2},${zoomH2})`;
-                }
-                if (h * (9 / 16) < w) {
-                    root.style.transform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomW2},${zoomW2})`;
-                }
-            }
+        if (w * (9 / 16) >= h) {
+          transform = `translate(${mw}px, ${mh}px) scale(${zoomH},${zoomH})`;
+        }
+        if (w * (9 / 16) < h) {
+          transform = `translate(${mw}px, ${mh}px) scale(${zoomW},${zoomW})`;
+        }
+      } else {
+        /**
+         * 旋转
+         */
+        if (ebg) {
+          ebg.style.height = `${targetHeight}px`;
+          ebg.style.width = `${targetWidth}px`;
+        }
+        mw2os = -mw2os;
+        if (h * (9 / 16) >= w) {
+          ebgTransform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomH2 * 1.75},${zoomH2 * 1.75})`;
+          transform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomH2},${zoomH2})`;
+        }
+        if (h * (9 / 16) < w) {
+          ebgTransform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomW2 * 1.75},${zoomW2 * 1.75})`;
+          transform = `rotate(90deg) translate(${mw2os}px, ${mh2os}px) scale(${zoomW2},${zoomW2})`;
+        }
+        /**
+         * iOS 不强制旋转
+         */
+        if (isIOSDevice) {
+          const zoomWi = w / targetWidth;
+          transform = `translate(${-mw}px, ${-mh}px) scale(${zoomWi},${zoomWi})`
+        }
+      }
+      if (ebg) {
+        ebg.style.transform = ebgTransform;
+      }
+      for (const element of elements) {
+        if (element) {
+          element.style.transform = transform;
+        }
+      }
     }
 
     if (!isIOSDevice) {
