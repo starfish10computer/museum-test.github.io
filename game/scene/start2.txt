@@ -21,4 +21,6 @@ changeFigure:ALEX.png -right -transform={"position":{"y":600},"scale":{"x":2,"y"
 阿多:我只是個作家，解謎方面一點也不擅長呢，已經有點想放棄了……|寫寫小說過日子吧，這裡包羅萬有，有很多寫作靈感呢。 -fontSize=default;
 {name}:怎麼能輕易放棄呢？|來吧，我們合作吧，一起逃出“博物時空”！ -fontSize=default;
 阿多:呵呵呵，很有活力的年輕人呢。 -fontSize=default; -next;
+changeFigure:none -left -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+changeFigure:none -right -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
 changeScene:Teachinglevel.txt
