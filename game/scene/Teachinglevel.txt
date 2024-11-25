@@ -1,4 +1,6 @@
 changeBg:a/n.jpg -next;
+changeFigure:none -left -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+changeFigure:none -right -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
 changeFigure:maincharacter.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
 {name}:剛才你說可以任意穿梭於時間和空間之中，具體要如何做呢？ -fontSize=default;
 changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
