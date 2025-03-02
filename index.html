@@ -1,92 +1,149 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
-  <meta charset="UTF-8"/>
-  <link rel="icon" type="image/x-icon" href="./icons/favicon.ico" />
-  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
-  <link rel="manifest" href="./manifest.json" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>逃出博物時空</title>
-  <script type="module" crossorigin src="./assets/index-cbe8d2e0.js"></script>
-  <link rel="stylesheet" href="./assets/index-71f1effb.css">
-</head>
-
-<body>
-<!--快速显示落地页，让用户感知不到加载的过程-->
-<div id="Title_enter_page" onclick="enter()" style="
-            width: 2560px;
-            height: 1440px;
-            overflow: hidden;
-            position: absolute;
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/x-icon" href="./icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+    <link rel="manifest" href="./manifest.json" />
+    <title>逃出博物時空</title>
+    <script type="module" crossorigin src="./assets/index-41daed13.js"></script>
+    <link rel="stylesheet" href="./assets/index-8fb46df7.css">
+    <style>
+        /* 密碼輸入框的樣式 */
+        #password-overlay {
+            position: fixed;
             top: 0;
-            z-index: 14;
-            opacity: 1;
-            transition: opacity 1.5s;
-">
-    <!--    落地页背景-->
-    <div id="Title_bg_container" style="
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
-    top: 0;
-    opacity: 1;
-    transition: opacity 1s;
-"></div>
-    <!--    点击后的白色渐变-->
-    <div id="Title_white_container" style="
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    background: linear-gradient(165deg,rgba(255,255,255,0.25) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0.25) 100%);
-    transition: opacity 1s;
-"></div>
-    <!--    落地页文字-->
-    <div id="Title_enter_text" style="width: 100%;
-    position: absolute;
-    top: 0;
-    height: 100%;
-    opacity: 1;
-    transition: opacity 1s;
-    z-index: 15;
-    font-family: '思源宋体',Georgia,serif">
-        <div class="toCenter" style="
+            left: 0;
             width: 100%;
             height: 100%;
+            background: rgba(0, 0, 0, 0.8);
             display: flex;
             justify-content: center;
             align-items: center;
-">
-            <div class="StartButton" style="font-size: xx-large;
-            letter-spacing: 0.25em ;
-            padding: 2em 2em 2em 2em;
-            text-shadow: 0 0 30px rgba(0,0,0,0.5);
-            transition: text-shadow 1s;
-">
-                PRESS THE SCREEN TO START
+            z-index: 1000;
+        }
+        #password-input {
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+        #password-submit {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        #password-submit:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <!-- 密碼輸入框 -->
+    <div id="password-overlay">
+        <input type="password" id="password-input" placeholder="請輸入密碼">
+        <button id="password-submit">提交</button>
+    </div>
+
+    <!--快速显示落地页，让用户感知不到加载的过程-->
+    <div id="ebg"></div>
+    <div id="Title_enter_page" onclick="enter()" style="
+        width: 2560px;
+        height: 1440px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        z-index: 14;
+        opacity: 1;
+        transition: opacity 5s;
+    ">
+        <!-- 落地页背景-->
+        <div id="Title_bg_container" style="
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            top: 0;
+            opacity: 1;
+            transition: opacity 1s;
+        "></div>
+        <!-- 点击后的白色渐变-->
+        <div id="Title_white_container" style="
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            opacity: 0;
+            background: linear-gradient(165deg,rgba(255,255,255,0.25) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,0.25) 100%);
+            transition: opacity 1s;
+        "></div>
+        <!-- 落地页文字-->
+        <div id="Title_enter_text" style="width: 100%;
+            position: absolute;
+            top: 0;
+            height: 100%;
+            opacity: 1;
+            font-size: 175%;
+            transition: opacity 1s;
+            z-index: 15;
+            font-family: '思源宋体',Georgia,serif">
+            <div class="toCenter" style="
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            ">
+                <div class="StartButton" style="
+                    letter-spacing: 0.25em ;
+                    padding: 2em 2em 2em 2em;
+                    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+                    transition: text-shadow 1s;
+                    font-size: 175%;
+                ">
+                    請點擊開始遊戲 PRESS THE SCREEN TO START
+                </div>
             </div>
-        </div>
-        <div
-            style="position: absolute;
-        bottom: 1em;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        flex-flow: column;
-        align-items: center ">
-            <div style="padding: 0 0 0.25em 0">
-                Powered by <a href="https://github.com/MakinoharaShoko/WebGAL" onclick="jump('https://github.com/MakinoharaShoko/WebGAL')">WebGAL</a> Framework
-            </div>
-            <div>
-                Made with ❤ by <a href="https://github.com/MakinoharaShoko" onclick="jump('https://github.com/MakinoharaShoko')">Mahiru</a>
+            <div style="position: absolute;
+                bottom: 1em;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                flex-flow: column;
+                align-items: center ">
+                <div style="padding: 0 0 0.25em 0">
+                    Powered by <a href="https://github.com/OpenWebGAL/WebGAL"
+                    onclick="jump(event, 'https://github.com/OpenWebGAL/WebGAL')">WebGAL</a> Framework
+                </div>
+                <div>
+                    Made with ❤ by <a href="https://github.com/OpenWebGAL"
+                    onclick="jump(event, 'https://github.com/OpenWebGAL')">MUSEU DE MACAU</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div id="root"></div>
+    <div id="panic-overlay"> <!-- 紧急回避 --> </div>
+    <div id="root"></div>
+    <script>
+        // 密碼驗證
+        const passwordOverlay = document.getElementById('password-overlay');
+        const passwordInput = document.getElementById('password-input');
+        const passwordSubmit = document.getElementById('password-submit');
 
+        passwordSubmit.addEventListener('click', () => {
+            if (passwordInput.value === 'AAAAA') {
+                passwordOverlay.style.display = 'none'; // 隱藏密碼輸入框
+            } else {
+                alert('密碼錯誤，請重新輸入。'); // 密碼錯誤提示
+                passwordInput.value = ''; // 清空輸入框
+            }
+        });
+    </script>
 <script>
     let enterPromise=new Promise(res=>window.enterPromise=res)
     let renderPromise=new Promise(res=>window.renderPromise=res)
