@@ -1,4 +1,0 @@
-changeBg:a/g.jpg -next;
-changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-未知的土生葡人:輸入錯誤，請重新輸入。 -fontSize=default;
-changeScene:start.txt
