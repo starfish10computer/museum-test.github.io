@@ -88,7 +88,8 @@ code {
 #ebg {
     height: 100dvh;
     width: 100vw;
-    filter: blur(50px);
+    -webkit-backdrop-filter: rgba(0, 0, 0, 0.5);
+  backdrop-filter: rgba(0, 0, 0, 0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
