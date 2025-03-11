@@ -1,0 +1,6 @@
+changeBg:a/h.jpg -next;
+changeFigure:{hero}.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+{name}:按本1,000元，按期4個月，以每百元每月利三元計算，即是1,120元。 -fontSize=default;
+changeFigure:homeowner.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+收藏家陳槐:你們又幫了我一個大忙了。 -fontSize=default;
+choose:繼續遊戲:Level8.txt;

@@ -1,0 +1,4 @@
+changeBg:a/f.jpg -next;
+:答案錯誤，請重新回答。 -fontSize=default;
+謎題:找到案發現場中消失了的物品。 -fontSize=default;
+choose:相架:Level6wrong1.txt|十字架:Level6wrong1.txt|電話:Level7b.txt|水果盤:Level6wrong1.txt|掛鐘:Level6wrong1.txt|劇情回顧:Level6.txt|美玲的提示:Level6T.txt;

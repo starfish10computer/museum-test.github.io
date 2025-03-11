@@ -1,0 +1,5 @@
+changeBg:a/d.jpg -next;
+:答案錯誤，請重新回答。 -fontSize=default;
+謎題:現在，請拿出“時空羅盤”，根據“挑戰卡”上的四道謎題，把四個正確答案對齊綠色的位置，“時空羅盤”中間便會顯示一串四位數字的終極密碼。輸入終極密碼吧！ -fontSize=default;
+謎題:別忘記，收藏家陳槐給您的神秘中式畫亦是重要的解碼關鍵，在展場中尋找相似的物件吧。 -fontSize=default;
+choose:7654:Level8wrong .txt|1088:Level8wrong .txt|1236:Level8wrong .txt|1998:Level9b.txt|6498:Level8wrong .txt|劇情回顧:Level8.txt|美玲的提示:Level8T.txt;
