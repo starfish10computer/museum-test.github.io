@@ -1,0 +1,5 @@
+changeBg:a/f.jpg -next;
+changeFigure:Meiling.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+美玲:客廳中有好多物品呢，但左邊的桌子上空空如也，感覺怪怪的…… -fontSize=default;
+謎題:對比案發現場的照片，找到土生葡人客廳中消失的物品。 -fontSize=default;
+choose:相架:Level6wrong1.txt|十字架:Level6wrong1.txt|電話:Level7b.txt|水果盤:Level6wrong1.txt|掛鐘:Level6wrong1.txt|劇情回顧:Level6.txt|美玲的提示:Level6T.txt;

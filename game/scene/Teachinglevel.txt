@@ -1,0 +1,22 @@
+setTextbox:hide;
+changeFigure: -left -next;
+changeFigure: -right -next;
+changeFigure: -next;
+changeFigure:none -left -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+changeFigure:none -right -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+changeBg:b/L0.jpg;
+choose:繼續遊戲:;
+changeBg:a/n.jpg -next;
+changeFigure:{hero}.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+
+
+: -fontSize=default;
+
+setTextbox:on;
+
+
+{name}:剛才你說可以任意穿梭於時間和空間之中，具體要如何做呢？ -fontSize=default;
+changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+阿多:只要我們找到能得知方向和時間的物品就行了。 -fontSize=default;
+謎題:請在博物館入口交匯之路－－“時間廊”，找出中國的航海羅盤，與西方的沙漏，把該兩件展品相應的數字相加便是答案。 -fontSize=default;
+choose:32:Teachinglevelwrong.txt|33:Teachinglevelwrong.txt|34:Teachinglevelwrong.txt|35:level1b.txt|38:Teachinglevelwrong.txt|劇情回顧:Teachinglevel.txt;

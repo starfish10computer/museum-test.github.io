@@ -1,0 +1,30 @@
+changeFigure: -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+setTextbox:hide;
+changeBg:c/19.jpg;
+choose:繼續遊戲:选择场景文件;
+changeBg:c/23.jpg;
+choose:繼續遊戲:选择场景文件;
+changeBg:a/g.jpg -next;
+changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+setTextbox:on;
+未知的土生葡人:喂，年輕人！你叫甚麼名字？ -fontSize=large;
+getUserInput:name -title=請輸入您的名字 -buttonText=確認;
+changeFigure:none -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+changeFigure:maincharacter.png -left -transform={"position":{"y":650},"scale":{"x":2,"y":2}} -next;
+changeFigure:heroine.png -right -transform={"position":{"y":650},"scale":{"x":2,"y":2}} -next;
+
+
+
+
+choose:以女性角色遊玩:label_1|以男性角色遊玩:label_2;
+label:label_1; // 创建名为 label_1 的 label
+setVar:hero=heroine
+jumpLabel:end; // 跳转到 end
+
+
+label:label_2; // 创建名为 label_2 的 label
+setVar:hero=maincharacter
+jumpLabel:end; // 跳转到 end
+
+label:end; // 创建名为 end 的 label
+changeScene:start2.txt;

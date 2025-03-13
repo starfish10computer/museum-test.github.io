@@ -1,0 +1,6 @@
+changeFigure:none -left -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+changeFigure:none -right -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+changeFigure:{hero}.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+changeBg:a/d.jpg -next;
+{name}:成功了！終極密碼是1998！我們解開了“時空羅盤”！可以回去現實世界了！ -fontSize=default;
+changeScene:Level9.txt

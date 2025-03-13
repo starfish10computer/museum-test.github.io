@@ -1,0 +1,6 @@
+changeBg:a/f.jpg -next;
+changeFigure:{hero}.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+{name}:找到了！客廳中的電話不見了。 -fontSize=default;
+changeFigure:homeowner.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
+收藏家:竟然偷我的電話！ -fontSize=default;
+choose:繼續遊戲:Level7.txt;
