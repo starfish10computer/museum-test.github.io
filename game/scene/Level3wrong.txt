@@ -1,5 +1,0 @@
-changeBg:a/a.jpg -next;
-changeFigure:coin.png -transform={"position":{"x":-280}} -next;
-:答案錯誤，請重新回答。 -fontSize=default;
-謎題:請在錢幣展區中找出“天啟通寶”錢幣，並填入錢幣下方的數字。 -fontSize=default;
-choose:136:Level3wrong.txt|142:Level3wrong.txt|187:Level5b.txt|196:Level3wrong.txt|213:Level3wrong.txt|劇情回顧:Level4.txt;

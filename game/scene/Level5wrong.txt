@@ -1,6 +1,0 @@
-changeBg:a/j.jpg -next;
-changeFigure: -next;
-:答案錯誤，請重新回答。 -fontSize=default;
-謎題:（現在暫不需要用到“時空羅盤”，請留待稍後使用） -fontSize=default;
-謎題:在舊時的澳門，澳門市政廳為了讓消防人員識別哪些住宅或商舖內有私人水井，|規定擁有私井的業主必須在門口掛一木牌，以便在緊急時讓消防人員進門取水，|請問這塊木牌上的文字是甚麼呢？ -fontSize=small;
-choose:P井:Level6b.txt|A井:Level5wrong.txt|W水:Level5wrong.txt|J水:Level5wrong.txt|C井:Level5wrong.txt|劇情回顧:Level5.txt;

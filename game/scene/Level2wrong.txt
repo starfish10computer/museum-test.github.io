@@ -1,4 +1,0 @@
-changeBg:a/l.jpg -next;
-:答案錯誤。請再次回答。 -fontSize=default;
-謎題:請把以下人物的資料卡片配對正確的位置，通關密碼便會出現。 -fontSize=default;
-choose:162715881513:Level2wrong.txt|151316271588:Level3b.txt|151315881627:Level2wrong.txt|158816271513:Level2wrong.txt|162715131588:Level2wrong.txt|劇情回顧:Level2.txt;

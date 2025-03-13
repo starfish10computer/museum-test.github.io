@@ -1,4 +1,0 @@
-changeBg:a/n.jpg -next;
-changeFigure:ALEX.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-阿多:正確！有了這兩個工具，我們便可以任意穿梭時空了。 -fontSize=default;
-choose:繼續遊戲:Level1.txt;

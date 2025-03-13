@@ -1,6 +1,0 @@
-changeBg:a/h.jpg -next;
-changeFigure:Meiling.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-美玲:保險箱掛著的木牌會印有持有人的名字，只要核對身份證上的名字就可以了。|至於利息是多少呢？相信能在當眼的位置找到吧。 -fontSize=default;
-changeFigure:staff.png -transform={"position":{"y":600},"scale":{"x":2,"y":2}} -next;
-謎題:找出圖中哪一個保險箱是屬於收藏家的，|然後計算連本帶利應付的金額（以單利息計算）。 -fontSize=default;
-choose:530 元:Level7wrong.txt|1,380 元:Level7wrong.txt|1,120 元:Level8b.txt|763 元:Level7wrong.txt|1,062 元:Level7wrong.txt|劇情回顧:Level7.txt|美玲的提示:Level7T.txt;
